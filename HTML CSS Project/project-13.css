@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 90vh;
+    width: 30%;
+    border: 2px solid red;
+}
+
+.main-img{
+    height: 40%;
+    width: 100%;
+    border: 2px solid black;
+    /* z-index: 2; */
+    /* position: relative; */
+    background-image: url(./Assests/bech\ image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-position: -0px; */
+
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* flex-direction: column; */
+
+    & .div1{
+        background-color: white;
+    }
+    & div{
+        height: 1.3%;
+        width: 8%;
+        /* border: 2px solid black; */
+        margin-bottom: 3%;
+        margin-left: 1%;
+        background-color: rgba(255, 255, 255, 0.719);
+        border-radius: 10px;
+        /* z-index: 1; */
+        /* position: absolute; */
+        
+    }
+    
+}
+

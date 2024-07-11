@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    height: 700px;
+    width: 480px;
+    border: 2px solid black;
+    background-image: url(/Assests/whatsapp\ background\ image.jpg);
+}
+
+.chat{
+    height: 45px;
+    width: 480px;
+    background-color: #323f4b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+.div2{
+   height: 35px;
+   width: 460px;
+   background-color: #47a3f3;
+   margin-top: 8px;
+   margin-left: 6px;
+   border-radius: 12px 14px 0px 12px;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 15px;
+}
+
+.container{
+    margin-top: 23px;
+}
+
+.div3{
+    height: 35px;
+    width: 460px;
+    background-color: #52606d;
+    margin-top: 8px;
+    margin-left: 6px;
+    border-radius: 14px 12px 12px 0px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+

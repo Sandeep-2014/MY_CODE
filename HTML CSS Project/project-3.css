@@ -1,0 +1,65 @@
+.div1 {
+    height: 600px;
+    width: 390px;
+    background-image: url(./Assests/img\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-left:200px;
+    
+    
+    /* background-attachment: scroll; */
+} 
+
+h2{
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 19px;
+    text-align:center; 
+}
+
+.para2 {
+    text-align: left;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+h3 {
+    text-align: left;
+    color: white;
+}
+
+
+/* div,button {
+    text-align: center;
+} */
+
+button{
+    height: 40px;
+    width: 80px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+u{
+    display: flex;
+    justify-content: center;
+    color: white;
+}

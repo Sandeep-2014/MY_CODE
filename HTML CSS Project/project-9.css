@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 700px;
+    width: 700px;
+    /* border: 2px solid black; */
+    background-image: url(/Assests/technolgy.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.main-div img{
+    height: 100%;
+    width: 100%;
+}
+
+.div1{
+    height: 140px;
+    width: 700px;
+    /* border: 2px solid yellow; */
+    background-color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+.content{
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+.content h1{
+    color: #5752ab;
+}
+
+.content p{
+    color: #323f4b;
+}
+
+.button{
+    height: 60px;
+    width: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.button button{
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.button .button1{
+    color: #171f46;
+    background-color: #ffffff;
+    border: 1px solid #d7dfe9;
+}
+
+.button .button2{
+    color: #ffffff;
+    background-color: #5752ab;
+    /* border: #d7dfe9; */
+    border: none;
+}
